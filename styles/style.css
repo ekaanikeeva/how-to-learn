@@ -19,16 +19,19 @@
   justify-content: center;
   position: relative;
 }
+
 .logo {
 width: 183px;
 z-index: 2;
 }
+
 .logo__place_header {
   position: absolute;
   top: 30px;
   left: 64px;
   height: 32px;
 }
+
 .header__title {
   margin: 0;
   position: relative;
@@ -38,6 +41,7 @@ z-index: 2;
   font-size: 102px;
   font-weight: bold;
 }
+
 .header__subtitle {
   margin: 0;
   position: absolute;
@@ -49,6 +53,7 @@ z-index: 2;
   font-weight: normal;
   z-index: 2;
 }
+
 .header__link {
   text-decoration: none;
   color: #2f80ed;
@@ -61,10 +66,12 @@ bottom: 0;
 right: 0;
 z-index: 1;
 }
+
 .header__image {
 width: 765px;
 height: 608px;
 }
+
 .header__square-pic {
   position: absolute;
   top: 64px;
@@ -78,12 +85,14 @@ height: 608px;
 .description {
 margin: 100px auto;
 }
+
 .two_columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: auto;
 }
+
 .two_columns_brief {
   margin: 0;
   width: 175px;
@@ -92,19 +101,23 @@ margin: 100px auto;
   font-weight: normal;
   color: #2f80ed;
 }
+
 .two_columns_main-text {
   width: 80%;
   min-width: 784px;
 }
+
 .two_columns_paragrath {
   margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
+
 .two_columns_paragrath:nth-last-child(n+2) {
   margin-bottom: 30px;
 }
+
 .two-columns__span-accent {
   font-weight: bold;
 }
@@ -119,6 +132,7 @@ margin: 100px auto;
   font-weight: bold;
   text-align: center;
 }
+
 .section-subtitle {
   margin: 0 auto;
   width: 60%;
@@ -127,6 +141,7 @@ margin: 100px auto;
   font-weight: normal;
   text-align: center;
 }
+
 /* универсальные классы для таблиц digits, kaufman */
 .table {
   display: flex;
@@ -135,15 +150,18 @@ margin: 100px auto;
   margin: 0 auto;
   width: 1100px;
 }
+
 /* класс ячейки таблицы */
 .table_cell {
   width: 250px;
   margin-top: 60px;
 }
+
 .table_cell_interval
 {
   margin-bottom: 60px;
 }
+
 /* класс заголовка ячейки */
 .table_heading {
   margin: 0;
@@ -151,6 +169,7 @@ margin: 100px auto;
   font-size: 24px;
   font-weight: bold;
 }
+
 /* класс текста ячейки */
 .table_text {
   margin: 0;
@@ -159,6 +178,7 @@ margin: 100px auto;
   font-size: 18px;
   font-weight: normal;
 }
+
 .feynman {
   background-color: #f2f2f2;
   display: flex;
@@ -210,20 +230,24 @@ margin: 100px auto;
   overflow: hidden;
 }
 
-/* вместо классов с модификатором theme_dsrk изменила цвет шрифта на белый таким образом: */
 .kaufman .table_cell {
   width: 200px;
   margin-top: 80px;
 }
+
+/* вместо классов с модификатором theme_dsrk изменила цвет шрифта на белый таким образом: */
 .kaufman .section-title {
   color: white;
 }
+
 .kaufman .section-subtitle {
   color: white;
 }
+
 .kaufman .table_heading {
   color: white;
 }
+
 .kaufman .table_text {
   color: white;
 }
