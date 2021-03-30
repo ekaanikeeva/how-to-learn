@@ -25,7 +25,7 @@
   z-index: 2;
 }
 
-.logo_place-header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -39,6 +39,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -88,7 +89,7 @@
   margin: auto;
 }
 
-.two-columns_brief {
+.two-columns__brief {
   margin: 0;
   max-width: 175px;
   line-height: 1.2;
@@ -97,19 +98,19 @@
   color: #2f80ed;
 }
 
-.two-columns_main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
 }
 
-.two-columns_paragraph {
+.two-columns__paragraph {
   margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.two-columns_paragrath:nth-last-child(n+2) {
+.two-columns__paragraph:nth-last-child(n+2) {
   margin-bottom: 30px;
 }
 
@@ -224,6 +225,7 @@
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -231,30 +233,37 @@
   top: 0;
   right: -210px;
   background-image: url('../images/kaufman-triangle.svg');
-  /* background-position: top right -210px; */
   background-repeat: no-repeat;
   background-size: cover;
   width: 877px;
   height: 877px;
+  z-index: -1;
 }
 
 .section-title_theme_dark {
   color: white;
-  z-index: 1;
+  position: relative;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  z-index: 1;
+  position: relative;
 }
 
 .table__cell_theme_dark {
   max-width: 200px;
   margin-top: 80px;
-  z-index: 1;
 }
 
 .table_theme_dark {
+  color: white;
+}
+
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__text_theme_dark {
   color: white;
 }
 
@@ -287,9 +296,9 @@
   flex-basis: 711px;
 }
 
-/* используется вместе с универсальным классом logo  */
+/* используется вместе с универсальным logo  */
 
-.logo_place-footer {
+.logo_place_footer {
   max-height: 35px;
 }
 
@@ -312,7 +321,9 @@
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .footer__column-link {
