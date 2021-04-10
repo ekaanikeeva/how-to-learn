@@ -1,0 +1,6 @@
+/* класс ячейки таблицы */
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}

@@ -1,0 +1,10 @@
+.cards__item {
+  margin-right: 100px;
+  width: 240px;
+  /* width (920px-(100px*2))/3 (ширина блока cards-отступы/3)
+  Задала фиксированную ширину для того чтобы не вставлять <br> в заголовок.*/
+}
+
+.cards__item:nth-child(3n) {
+  margin-right: 0;
+}
